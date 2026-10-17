@@ -1,0 +1,3 @@
+# SiteLens WP — only two dependencies, kept minimal on purpose.
+requests
+beautifulsoup4
