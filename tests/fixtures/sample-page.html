@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Offline test fixture: a small fake WordPress-style page.
+     Deliberately imperfect: missing meta description, two H1s, one image
+     without alt text, no viewport tag — so the smoke test can check that
+     the scraper flags each of them. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Acme Bakery — Fresh Bread Daily and Custom Cakes for Every Occasion in Town</title>
+<meta name="generator" content="WordPress 6.5">
+<link rel="canonical" href="https://acme-bakery.example/">
+</head>
+<body>
+<header>
+<h1>Acme Bakery</h1>
+<h1>Fresh Bread Daily</h1>
+<nav>
+<a href="/menu">Our Menu</a>
+<a href="/about">About Us</a>
+<a href="https://instagram.com/acmebakery">Instagram</a>
+</nav>
+</header>
+<main>
+<h2>Today's Specials</h2>
+<p>Warm sourdough, every morning.</p>
+<h2>Order a Cake</h2>
+<p>Custom cakes for birthdays and weddings.</p>
+<img src="/wp-content/uploads/sourdough.jpg" alt="Fresh sourdough loaf">
+<img src="/wp-content/uploads/cake.jpg">
+<img src="https://cdn.example.com/shop.jpg" alt="Our shop front">
+</main>
+<footer>
+<a href="/contact">Contact</a>
+</footer>
+</body>
+</html>
